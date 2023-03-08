@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameInfo</title>
+    <link rel="icon" type="image/png"
+          href="https://board.mistaua.com/2020/99297_1_2.jpg">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Amatic+SC">
+<link rel="stylesheet" href="style4.css">
+</head>
+<main>
+<body>
+<header>
+    <nav><a>Вернуться в начало </a><a></a><a>Служба поддержки</a></nav>
+</header>
+<section style="margin-top: 100px;text-align: center;method">
+    <button  style="margin-top: 0px;text-align: center;method" >
+        <a href="vidio.html">Видио о нашей компании</a>
+    </button>
+ <form method="get">
+    <h1 id="Navigation"><b >Заполните форму</b></h1>
+    <p>
+        <label for="name" name="form1" >Введите имя:</label>
+        <input type="text" name="name" id="name" required>
+    </p>
+    <p>
+        <label for="phone" >Введите номер телефона:</label>
+        <input type="tel" name="phone" id="phone" required>
+    </p>
+    <p>
+        <label for="mail" >Введите email:</label>
+        <input type="email" name="mail" id="mail" required>
+    </p>
+    <p>
+        <label for="password1" >Введите стандартный пароль:</label>
+        <input pattern="12345" placeholder="12345" type="password" name="password1" id="password1" required>
+    </p>
+    <p>
+        <label for="file1" >Прикрепите файл с документом удостоверяющим личность:</label>
+        <input type="file" name="file1" id="file1">
+    </p>
+    <p>
+        <label for="pol"  >Даю согласие на обработку персональных данных</label >
+        <input type="checkbox" name="pol" id="pol" required >
+    </p>
+    <p>Как с вами связываться?</p>
+    <p>
+        
+        <label for="sv" >Email</label>
+        <input type="radio" name="sv" id="sv" checked>
+    
+        <label for="sv" >Phone</label>
+        <input type="radio" name="sv" id="sv">
+    </p>
+ 
+    <p >
+        <label for="time" >Дата отправки формы</label>
+        <input min="2004-12-12T08:30" max="2022-12-12T08:30" type="datetime-local" name="time" id="time" required> 
+    </p>
+    <p>
+        <label for="about" > Опишите сови лучшие качества:</label>
+        <textarea placeholder="Я дружилюбный..."  cols="100px" rows="10px" maxlength="150"  minlength="40"  name="about" id="about"  required > </textarea>
+    </p>
+    <p >
+        <fieldset >
+            <legend>Кем вы хотите быть?</legend>
+            <label><input type="radio" name="ans" >
+            Программист
+            </label>
+            <label><input type="radio" name="ans" >
+                Повар
+                </label>
+                <label><input type="radio" name="ans" >
+                    Доставщик
+                    </label>
+            </fieldset>
+            <label  for="city-select">В каком из городов вы могли бы работать работу?</label>
+            <select multiple size="2" required name="city" id="city-select">
+            <option value="">--Выберите город --</option>
+            <option value="msk">Москва</option>
+            <option value="spb">СПБ</option>
+            <option value="vladi">Владимир</option>
+            <option value="yar">Ярославль</option>
+            </select>
+    </p>
+    <p>
+        <label for="out" >Отправить форму</label>
+        <input    type="submit" name="out" id="out"> 
+    </p>
+
+    
+</form>
+
+    </section>
+
+    <footer>
+        <h2 id="Contact"><em>Контакты</em></h2>
+        <ol>
+            <li><address><a href="mailto:sendemail@gmail.com">Написать письмо</a></address></li>
+            <li><address><a href="tel:01234567890">Позвонить по номеру</a></address></li>
+        </ol>
+    </footer>
+<h2 class="left"><a href="#Navigation"><b>Вверх</b></a></h2>
+</main>
+</body>
+</html>

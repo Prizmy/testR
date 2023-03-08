@@ -1,0 +1,125 @@
+section:nth-child(odd){
+    border-range: 100px;
+    width: 80%;
+    }
+    
+    body{
+    background-color: lightyellow;
+    }
+    section:nth-child(odd){
+    margin: 30px 100px;
+    padding: 50px 180px;
+    width: 60%;
+    background-color: white;
+    border-radius: 100px;
+    border-color: black;
+    border-style: double;
+    border-width: 10px;
+    }
+    section:nth-child(even){
+    margin: 30px 100px;
+    background-color: white;
+    padding: 50px 180px;
+    width: 60%;
+    border-radius: 100px;
+    border-color: purple;
+    border-style: double;
+    border-width: 10px;
+    }
+    nav{
+    float:left;    
+    font-size: 1.2em;
+    }
+    .ravn{
+    float:right;
+    position: sticky;
+    top: 0;
+    margin: 0px -150px 0px 0px;
+    }   
+    
+    footer{
+    float:right;
+    margin: 0px 200px 0px 0px;
+    border-radius: 100px;
+    border-color: black;
+    border-style: double;
+    border-width: 10px;
+    padding: 50px;
+    }
+    .left{
+    float:left;
+    margin: 0px 0px 0px 200px;
+    border-radius: 100px;
+    border-color: black;
+    border-style: double;
+    border-width: 10px;
+    padding: 95px 110px;
+    }
+    ul > li{
+    color: red;
+    }
+    li a:active{
+    color: black;
+    }
+ 
+    #bye:focus{
+    color: black;
+    }
+    #bye{
+    margin: 100px 0px 0px 30px;
+    padding: 95px 110px;
+    color: lightyellow;
+    font-size: 3em;
+    }
+    h1{
+        font-family: Amatic SC;
+    }
+    h2{
+        font-family: Amatic SC;
+    }
+    h3{
+        font-family: Amatic SC;
+    }
+    .up{
+    position: Fixed;
+    }
+    .imageleft{
+        float: left;
+        margin-right: 2rem;
+       
+    }
+    .imagerigt{
+        float: right;
+        margin-left: 2rem;
+    }
+    nav{
+        position: relative;
+        left: 2em; 
+    }
+    header{
+  
+        height: 2em;
+        padding: 1em 18%;
+        display: inline;
+        position: fixed;
+        background: lightyellow;
+        top: 0px;
+    
+    }
+input{
+    border: 2px solid currentColor;
+}
+input:invalid{
+    border: 2px dashed red;
+    background-color: cadetblue;
+}
+input:invalid:focus{
+    background-color: white;
+}
+textarea{
+    background-color: aqua;
+    color: black;
+}
+input::placeholder{
+    color: chartreuse;
+}
